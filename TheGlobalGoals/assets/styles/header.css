@@ -1,0 +1,53 @@
+header{
+    background-color: rgb(221, 166, 58);
+    height: 860px;
+}
+
+.header__zero{
+    height: 500px;
+    color: white;
+    text-align: left;
+}
+
+.header__zero--heading{
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__zero--two{
+    font-size: 250px;
+    color: rgb(119, 72, 4);
+    margin-right: 60px;
+}
+
+.header__zero--hunger{
+    display: flex;
+    font-size: 100px;
+    width: 250px;
+}
+
+.header__zero--paragraph{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width:500px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.header__zero--text{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 600px;
+}
+
+.header__crops{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}

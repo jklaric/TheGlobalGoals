@@ -1,5 +1,18 @@
-@font-face{
-    font-family: giorgio sans;
-    src: url(../fonts/giorgiosans.woff);
+@font-face {
+    font-family: 'giorgiosans';
+    src: url('../fonts/giorgiosans-webfont.woff2') format('woff2'),
+         url('../fonts/giorgiosans-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
+*{
+    margin: 0;
+    max-width: 100vw;
+    max-height: 100vh;
+    font-family: giorgiosans;
+}
+
+a{
+    text-decoration: none;
+}

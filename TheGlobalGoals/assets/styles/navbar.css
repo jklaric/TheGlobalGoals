@@ -1,0 +1,121 @@
+nav{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 10px 70px 0px 70px;
+    background-color: rgb(221, 166, 58);
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__logo{
+    width: 465px;
+    height: 85px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.nav__logo--image{
+    width: 67px;
+    height: 67px;
+    filter: invert(100%) sepia(70%) saturate(395%) hue-rotate(85deg) brightness(123%) contrast(108%);
+}
+
+.nav__logo--text{
+    display: flex;
+    align-items: flex-start;
+    width: 176px;
+    height: 60px;
+    margin-left: 12px;
+    filter: invert(100%) sepia(70%) saturate(395%) hue-rotate(85deg) brightness(123%) contrast(108%);
+}
+
+.nav__buttons{
+    width: 825px;
+    height: 70px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.nav__buttons--button--wrapper{
+    padding-right: 24px;
+    padding-left: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    transition: 0.2s;
+}
+
+.nav__buttons--button--wrapper:hover{
+    background-color: rgb(210, 156, 52);
+    transition-duration: 180ms;
+}
+
+.nav__buttons a{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 26px;
+    word-spacing: 0.95px;
+    font-stretch: 100%;
+    height: 50px;
+}
+
+.nav__buttons--arrow{
+    width: 10px;
+    height: 10px;
+    rotate: 45deg;
+    border-width: 1px;
+    border-top-color: white;
+    border-top-style: solid;
+    border-right-color: white;
+    border-right-style: solid;
+    margin-left: 3px;
+}
+
+.nav__buttons--arrow--wrapper{
+    box-sizing: border-box;
+    display: flex;
+}
+
+.nav__buttons--full--arrow{
+    width: 15px;
+    height: 15px;
+    filter: invert(100%) sepia(70%) saturate(395%) hue-rotate(85deg) brightness(123%) contrast(108%);
+    margin-left: 10px;
+}
+
+.nav__buttons--button:hover + .nav__buttons--arrow--wrapper{
+    transform: translate(2px);
+    transition-duration: 180ms;
+}
+
+.nav__buttons--button:hover + .nav__buttons--full--arrow{
+    transform: translate(1px, -1px);
+
+}
+
+.nav__buttons--elements{
+    padding-left: 16px;
+    padding-right: 29px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__buttons--language--symbol{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    filter: invert(100%) sepia(70%) saturate(395%) hue-rotate(85deg) brightness(123%) contrast(108%);
+}
+
+.nav__buttons--language:hover{
+    background-color: 	rgb(210, 156, 52);
+    transition-duration: 180ms;
+    transition: 0.2s;
+}
